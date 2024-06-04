@@ -63,6 +63,158 @@
 
 }
 
+/* center page */
+.centerpg {
+  display: grid;
+  grid-auto-flow: column ;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.live_auc {
+  display: grid;
+  grid-auto-flow: column ;
+}
+
+/* Auction list */
+
+.row1 {
+  display: grid;
+  grid-auto-flow: column ;
+}
+
+.grid1 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 432px;
+}
+.sec {
+  display: grid;
+  grid-auto-flow: column ;
+  width:260px;
+  justify-content: space-between;
+}
+
+.create {
+  display: grid;
+  grid-auto-flow: column ;
+  justify-content: flex-start;
+
+}
+
+.writing1 {
+  font-size: 12px;
+  color:#9FA1A6;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.writing2 {
+  font-size: 14px;
+  color: #293341;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.createimage {
+  padding: 20px 10px;
+  height: 34px;
+  width: 34px;
+}
+
+.own {
+  display: grid;
+  grid-auto-flow: column ;
+  justify-content: flex-start;
+}
+
+.ownimage {
+  padding: 20px 10px;
+}
+
+.writing3 {
+  
+  font-size: 12px;
+  color:#9FA1A6;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.writing4 {
+  font-size: 14px;
+  color: #293341;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.bid {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  height: 17px;
+  margin-bottom: 10px;
+}
+
+.bid > p {
+  font-size: 14px;
+}
+
+.bid_end {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  height: 17px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.bid_end > p {
+  font-size: 14px;
+}
+
+.history {
+  display: grid;
+  grid-auto-flow: column;
+  width: 256px;
+  height: 40px;
+  justify-content: space-between;
+
+}
+
+.history > p {
+  font-size: 14px;
+}
+
+.history > button {
+  width:125px;
+  height:40px;
+  border-radius: 50px;
+  background-color:#1A79E8;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+}
+
+.history > span {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* mobile view */
 
 @media only screen and (max-width: 600px) {
