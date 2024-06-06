@@ -20,7 +20,7 @@ export const Create = () => {
                 </div>
 
                 <div className='tax'>
-                    <img src='/create/tax.svg' alt='create'  />
+                    <img src='/create/tax.svg' alt='create' />
                 </div>
 
                 <div className='name'>
@@ -32,7 +32,7 @@ export const Create = () => {
                 </div>
 
                 <div className='royalty'>
-                    <img src='/create/royalty.svg' alt='create'  />
+                    <img src='/create/royalty.svg' alt='create' />
                 </div>
 
                 <div className='create_button'>
@@ -44,16 +44,18 @@ export const Create = () => {
                 <h4>Preview</h4>
 
                 <div className='prev_image'>
-                    <div>
-                        <img src={'/create/preview_image.svg'} alt='preview' height={400} width={500} />
-                    </div>
+                    <div className='border'>
+                        <div>
+                            <img src={'/create/preview_image.svg'} alt='preview' height={400} width={500} />
+                        </div>
 
-                    <div>
-                        <img src={'/create/preview_desc.svg'} alt='preview' />
-                    </div>
+                        <div>
+                            <img src={'/create/preview_desc.svg'} alt='preview' />
+                        </div>
 
-                    <div>
-                        <img src={'/create/preview_price.svg'} alt='preview' />
+                        <div>
+                            <img src={'/create/preview_price.svg'} alt='preview' />
+                        </div>
                     </div>
                 </div>
             </div>
