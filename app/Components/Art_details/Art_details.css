@@ -1,0 +1,84 @@
+.main {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.picture {
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.circle {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.sec1 {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.sec1 > h4 {
+    color: #293341;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.sec1 > span {
+    width: 540px;
+    padding-left: 30px;
+}
+
+.sec2 {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.picture1 {
+    display: grid;
+    justify-content: end;
+}
+
+.picture2 {
+    display: grid;
+    justify-content: end;
+    padding-top: 340px;
+    padding-right: 50px;
+    
+}
+
+.circle {
+    box-shadow: 0px 5px 13px 0px #006AE508;
+
+}
+
+.bid_box {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    box-shadow: 0px 5px 13px 0px #006AE508;
+    margin-top: 30px;
+    height: 250px;
+
+}
+
+.bid_box > button {
+    background-color: #1A79E8;
+    color: #FFFFFF;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 562px;
+    height: 62px;
+}
+
+.bid_box > span {
+    padding-top: 20px;
+}
+
+
