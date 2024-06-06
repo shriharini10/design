@@ -16,11 +16,11 @@ export const Header = () => {
         </div>
 
         <div className='menu'>
-
+          <ul>
           <li><a>Home</a></li>
           <li><a>Create</a></li>
           <li><a>Collections</a></li>
-
+          </ul>
         </div>
 
         <div className='controls'>

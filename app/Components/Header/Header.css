@@ -34,11 +34,12 @@
     width: 300px;
   }
   
-  .menu {
+  .menu > ul {
     /* background-color: azure; */
     display: grid;
     grid-auto-flow:column ;
     place-items: center;
+    padding-top: 20px;
   }
   
   .controls {
