@@ -340,7 +340,44 @@ padding-top: 10px;
 
 /* footer page */
 
+.footer {
+  display:grid;
+  grid-auto-flow: row ;
+  padding-top: 60px;
+  margin-top: 60px;
+}
 
+.top_section {
+  display:grid;
+  grid-auto-flow:column ;
+}
+
+.terms {
+  display:grid;
+  grid-auto-flow:column ;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 250px;
+}
+
+.bottom_section {
+  display:grid;
+  grid-auto-flow:column ;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo {
+  padding-top: 30px;
+}
+
+.brand_logo {
+  display:grid;
+  grid-auto-flow:column ;
+  justify-content: space-between;
+  width: 500px;
+}
 
 
 
