@@ -1,14 +1,23 @@
-import React from 'react'
-import './Create.css'
+'use client'
+import React, {useState} from 'react';
+import './Create.css';
 
 export const Create = () => {
+    const [musicImage, setMusicImage] = useState('/create/create_image.svg');
+
+    const handleImageClick = () => {
+        setMusicImage(prevImage =>
+            prevImage === '/create/create_image.svg' ? '/create/alternate_image.svg' : '/create/create_image.svg'
+        );
+    };
+
     return (
         <div className='main'>
             <div className='create'>
                 <h3>Create Music collectible</h3>
 
-                <div className='music_image'>
-                    <img src='/create/create_image.svg' alt='create' height={230} width={500} />
+                <div className='music_image' onClick={handleImageClick}>
+                    <img src={musicImage} alt='create' height={230} width={500} />
                 </div>
 
                 <div className='sale'>
