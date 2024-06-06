@@ -515,10 +515,10 @@ export default function Home() {
 
       {/* moto of the page */}
       <div className={styles.moto}>
-        
-          <p>We are building the new economy for</p>
-          <p>collecting music</p>
-        
+
+        <p>We are building the new economy for</p>
+        <p>collecting music</p>
+
         <div className={styles.music}>
           <article>We're bringing Music creators, digital creators, crypto</article>
           <article>natives, and collectors together to move culture forward.</article>
@@ -527,8 +527,40 @@ export default function Home() {
       </div>
 
       {/* footer of the page */}
-      <div>
-        
+      <div className={styles.footer}>
+        <div className={styles.top_section}>
+          <div className={styles.brand_logo}>
+            <div className={styles.brand}>
+              <Image src={"/logo.svg"} alt={"brand logo"} height={90} width={279} />
+
+            </div>
+
+            <div className={styles.logo}>
+              <Image src={"/socialmedia_icons.svg"} height={25} width={156} alt={"social media icons"} />
+            </div>
+          </div>
+
+
+          <div className={styles.terms}>
+            <p>Terms of Service</p>
+            <p>Privacy</p>
+            <p>Resource center</p>
+          </div>
+        </div>
+
+
+        <div className={styles.bottom_section}>
+          <div className={styles.copyrights}>
+            <p>© 2020 MP4toNFT. All rights reserved</p>
+          </div>
+
+          <div className={styles.by}>
+            <p>Developed and maintained by ZEVO CORPORATION</p>
+          </div>
+
+        </div>
+
+
       </div>
 
 
