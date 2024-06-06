@@ -1,0 +1,41 @@
+.main {
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.create {
+    display: grid;
+    grid-auto-flow: row;
+    padding-left: 50px;
+}
+
+.create > h3 {
+    color: #293341;
+    font-size: 32px;
+}
+
+.create_button {
+    padding-top: 20px;
+}
+
+.preview {
+    padding-top: 40px;
+}
+
+.sale {
+    height: 60px;
+}
+
+.price {
+    height: 60px;
+}
+
+.tax {
+    height: 80px;
+}
+
+.preview > h4 {
+    color: #293341;
+    font-size: 24px;
+}
