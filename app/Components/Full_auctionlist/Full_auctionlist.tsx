@@ -934,7 +934,20 @@ export const Full_auctionlist = () => {
       <div className='view_all'>
         <button>View all live auctions</button>
       </div>
-      
+
+      {/* moto of the page */}
+      <div className={'moto'}>
+
+        <p>We are building the new economy for</p>
+        <p>collecting music</p>
+
+        <div className={'music'}>
+          <article>We're bringing Music creators, digital creators, crypto</article>
+          <article>natives, and collectors together to move culture forward.</article>
+        </div>
+        <button>Sell your Music Collectable</button>
+      </div>
+
     </div>
     );
 }

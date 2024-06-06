@@ -8,6 +8,7 @@ import { Search } from "./Components/Search/Search";
 import { Create_preview } from "./Components/Create_preview/Create_preview";
 import { Create } from "./Components/Create/Create";
 import { Full_auctionlist } from "./Components/Full_auctionlist/Full_auctionlist";
+import { Art_details } from "./Components/Art_details/Art_details";
 
 
 export default function Home() {
@@ -18,7 +19,8 @@ export default function Home() {
     {/* <Search/> */}
     {/* <Create_preview/> */}
     {/* <Create/> */}
-    <Full_auctionlist />
+    {/* <Full_auctionlist /> */}
+    <Art_details />
     <Footer/>
     
     </>
