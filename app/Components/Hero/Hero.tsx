@@ -473,12 +473,14 @@ export const Hero = () => {
 
 
       </div>
-
-      {/* loading more collectables... */}
+ 
+      {/* loading more collectables...  */}
       <div className={'loading'}>
         <img src={"/loading.svg"} alt={"loading image"} height={60} width={60} />
         <p>Loading more Collectables</p>
-      </div>
+      </div> 
+
+
 
       {/* moto of the page */}
       <div className={'moto'}>
