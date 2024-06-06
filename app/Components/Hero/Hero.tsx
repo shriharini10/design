@@ -474,10 +474,15 @@ export const Hero = () => {
 
       </div>
  
-      {/* loading more collectables...  */}
+      {/* loading more collectables... 
       <div className={'loading'}>
         <img src={"/loading.svg"} alt={"loading image"} height={60} width={60} />
         <p>Loading more Collectables</p>
+      </div>  */}
+      
+      {/* view all auctions  */}
+      <div className='view_all'>
+        <button>View all live auctions</button>
       </div> 
 
 

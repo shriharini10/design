@@ -241,6 +241,23 @@
   .loading > p {
     color: #465364;
   }
+
+  /* View all auctions */
+
+  .view_all {
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .view_all > button {
+    border: 1px solid #46536480;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+  }
   
   /* moto page */
   
