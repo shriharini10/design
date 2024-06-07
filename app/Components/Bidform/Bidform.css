@@ -1,0 +1,101 @@
+.topsection {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.details {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.details>p {
+  color: #1A79E8;
+  font-size: 14px;
+}
+
+.picname {
+  color: #293341;
+  padding-top: 10px;
+}
+
+.bid {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  height: 17px;
+  margin-bottom: 20px;
+}
+
+.bid>p {
+  font-size: 14px;
+}
+
+.currentbid {
+  color: #465364;
+
+}
+
+.amount {
+  padding-left: 45px;
+}
+
+.bid_end {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  height: 17px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.bid_end>p {
+  font-size: 14px;
+}
+
+.hour {
+  color: #FE7676;
+}
+
+.middle {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+
+}
+
+.wallet_time {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.left > p {
+  color: #465364;
+  font-size: 14px;
+}
+
+.left > p {
+  color: #465364;
+  font-size: 14px;
+}
+
+.amt_button {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.middle > p {
+  color: #465364;
+  font-size: 14px;
+}
+
+.middle>button {
+  width: 125px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #1A79E8;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+
+}
