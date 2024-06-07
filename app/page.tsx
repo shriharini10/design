@@ -17,17 +17,17 @@ import { Bidform } from "./Components/Bidform/Bidform";
 export default function Home() {
   return (
     <>
-    {/* <Header/> */}
-    {/* <Hero /> */}
+    <Header/>
+    <Hero />
     {/* <Search/> */}
     {/* <Create_preview/> */}
     {/* <Create/> */}
     {/* <Full_auctionlist /> */}
     {/* <Art_details /> */}
     {/* <Sell /> */}
-    {/* <Footer/> */}
+    <Footer/>
     {/* <Wallet /> */}
-    <Bidform />
+    {/* <Bidform /> */}
     </>
 
 
