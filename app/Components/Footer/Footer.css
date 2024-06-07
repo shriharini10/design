@@ -15,6 +15,7 @@
     justify-content: space-evenly;
     padding-top: 20px;
     padding-left: 250px;
+    color: #293341;
   }
   
   .bottom_section {
@@ -34,5 +35,14 @@
     grid-auto-flow:column ;
     justify-content: space-between;
     width: 500px;
+  }
+
+  .copyrights {
+    color: #465364;
+  }
+
+  .by {
+    color: #465364;
+
   }
   
