@@ -9,20 +9,25 @@ import { Create_preview } from "./Components/Create_preview/Create_preview";
 import { Create } from "./Components/Create/Create";
 import { Full_auctionlist } from "./Components/Full_auctionlist/Full_auctionlist";
 import { Art_details } from "./Components/Art_details/Art_details";
+import { Sell } from "./Components/Sell/Sell";
+import { Wallet } from "./Components/Wallet/Wallet";
+import { Bidform } from "./Components/Bidform/Bidform";
 
 
 export default function Home() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     {/* <Hero /> */}
     {/* <Search/> */}
     {/* <Create_preview/> */}
     {/* <Create/> */}
     {/* <Full_auctionlist /> */}
-    <Art_details />
-    <Footer/>
-    
+    {/* <Art_details /> */}
+    {/* <Sell /> */}
+    {/* <Footer/> */}
+    {/* <Wallet /> */}
+    <Bidform />
     </>
 
 
