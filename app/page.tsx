@@ -21,12 +21,12 @@ export default function Home() {
   return (
     <>
     <Header/>
-    <Hero />
+    {/* <Hero /> */}
     {/* <Search/> */}
     {/* <Create_preview/> */}
     {/* <Create/> */}
     {/* <Full_auctionlist /> */}
-    {/* <Art_details /> */}
+    <Art_details />
     {/* <Sell /> */}
     <Footer/>
 

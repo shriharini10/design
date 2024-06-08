@@ -81,4 +81,63 @@
     padding-top: 20px;
 }
 
+.mobile {
+    display:none;
+}
 
+
+@media only screen and (max-width: 600px) {
+
+.mobile {
+
+    display: block;
+}
+
+.mob_picture {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: end;
+}
+
+.circle{
+    display: block;
+}
+
+.mob_sec1{
+    display: grid;
+    justify-content: center;
+}
+
+.sec2 {
+    display: block;
+}
+
+
+.mob_bid_box {
+    display: block;
+    padding: 10px 20px 10px 20px;
+}
+
+.mob_bid_box > button {
+    background-color: #1A79E8;
+    color: #FFFFFF;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 40px;
+}
+
+.bidders{
+    display: block;
+}
+
+.history {
+    display: block;
+}
+.main {
+    display: none;
+}
+
+
+}
