@@ -1,0 +1,66 @@
+.account {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+}
+
+.profile {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+}
+
+.profile > h5 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.profile > span {
+    margin-top: 20px;
+}
+
+.account > p {
+    color: #465364;
+}
+
+.price {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.price > h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.price > p {
+    color: #465364;
+    margin: 0px;
+}
+
+.collectibles > p {
+    color: #465364;
+}
+
+.collectibles > h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.line {
+    width: 300px;
+    height: 1px;
+    background-color:#1A79E8;
+    margin: 10px 0px 10px 0px;
+}
+
+.bottom {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.bottom > span {
+    display: grid;
+    margin-top: 45px;
+    justify-content: right;
+}
