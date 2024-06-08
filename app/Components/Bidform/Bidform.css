@@ -74,7 +74,7 @@
   font-size: 14px;
 }
 
-.left > p {
+.right > p {
   color: #465364;
   font-size: 14px;
 }
@@ -97,4 +97,56 @@
   color: #FFFFFF;
   outline: none;
   border: none;
+}
+
+.mob_amt_button{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .topsection {
+    display: block;
+  }
+
+  .cross {
+    display: none;
+  }
+
+  .auc_image, .details {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+  }
+
+  .details {
+    padding-left: 5px;
+    padding-right: 0;
+  }
+
+  .bid, .bid_end {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  .hour {
+    padding-left: 5px;
+  }
+
+  .amount {
+    display: none;
+  }
+
+  .amt_button {
+    display: none;
+  }
+
+  .mob_amt_button{
+    display: block;
+  }
+  
+  .middle > button {
+    width: 100%;
+    margin-top: 15px;
+  }
 }

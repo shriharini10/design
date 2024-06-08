@@ -31,9 +31,9 @@ export default function Home() {
     {/* <Footer/> */}
 
     {/* <Wallet /> */}
-    {/* <Bidform /> */}
+    <Bidform />
     {/* <Account /> */}
-    <Sellon_auction />
+    {/* <Sellon_auction /> */}
     {/* <Success /> */}
     
     </>

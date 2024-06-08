@@ -25,7 +25,7 @@ export const Bidform = () => {
 
                 </div>
 
-                <img src='/bidform/x-circle.svg' alt='close page'/>
+                <span className='cross'><img src='/bidform/x-circle.svg' alt='close page'/></span>
             </div>
 
             <div className='middle'>
@@ -49,6 +49,15 @@ export const Bidform = () => {
                     <img src='/bidform/bigbutton.svg' alt='bid button' height={37} width={400}/>
                     <img src='/bidform/smallbutton.svg' alt='ETH button' height={37} />    
                 </div>
+
+
+                {/* mobile media query */}
+                <div className='mob_amt_button'>
+                    <img src='/bidform/mob_bigbutton.svg' alt='bid button' />
+                    <img src='/bidform/mob_smallbutton.svg' alt='ETH button'  />    
+                </div>
+
+
 
                 <p>Service fee 2.5% You will receive 8.6 ETH =$14,263</p>
 
