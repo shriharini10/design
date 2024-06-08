@@ -33,7 +33,6 @@
 
 .currentbid {
     color: #465364;
-
 }
 
 .amount {
@@ -61,7 +60,6 @@
     display: grid;
     grid-auto-flow: row;
     justify-content: center;
-
 }
 
 .wallet_time {
@@ -74,7 +72,17 @@
     font-size: 14px;
 }
 
-.left>p {
+.left>h4 {
+    color: #465364;
+    font-size: 14px;
+}
+
+.right>p {
+    color: #465364;
+    font-size: 14px;
+}
+
+.right>h4 {
     color: #465364;
     font-size: 14px;
 }
@@ -97,4 +105,54 @@
     color: #FFFFFF;
     outline: none;
     border: none;
+}
+
+.mob_amt_button {
+    display: none;
+}
+
+.mob_auc_image{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .bidpage {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    .topsection {
+        display: block;
+        text-align: left;
+        
+    }
+
+    .details {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .auc_image {
+        display: none;
+    }
+
+    .mob_auc_image {
+        display: block;
+        text-align: left;
+
+    }
+
+    .amt_button {
+        display: none;
+    }
+
+    .mob_amt_button {
+        display: grid;
+        grid-auto-flow: column;
+    }
 }

@@ -26,14 +26,14 @@ export default function Home() {
     {/* <Create_preview/> */}
     {/* <Create/> */}
     {/* <Full_auctionlist /> */}
-    <Art_details />
+    {/* <Art_details /> */}
     {/* <Sell /> */}
-    <Footer/>
+    {/* <Footer/> */}
 
     {/* <Wallet /> */}
     {/* <Bidform /> */}
     {/* <Account /> */}
-    {/* <Sellon_auction /> */}
+    <Sellon_auction />
     {/* <Success /> */}
     
     </>
