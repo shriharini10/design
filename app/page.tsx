@@ -14,6 +14,7 @@ import { Wallet } from "./Components/Wallet/Wallet";
 import { Bidform } from "./Components/Bidform/Bidform";
 import { Account } from "./Components/Account/Account";
 import { Sellon_auction } from "./Components/Sellon_auction/Sellon_auction";
+import { Success } from "./Components/Success/Success";
 
 
 export default function Home() {
@@ -31,8 +32,9 @@ export default function Home() {
 
     {/* <Wallet /> */}
     {/* <Bidform /> */}
-    <Account />
+    {/* <Account /> */}
     {/* <Sellon_auction /> */}
+    <Success />
     
     </>
 
