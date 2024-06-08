@@ -20,21 +20,21 @@ import { Success } from "./Components/Success/Success";
 export default function Home() {
   return (
     <>
-    {/* <Header/> */}
-    {/* <Hero /> */}
+    <Header/>
+    <Hero />
     {/* <Search/> */}
     {/* <Create_preview/> */}
     {/* <Create/> */}
     {/* <Full_auctionlist /> */}
     {/* <Art_details /> */}
     {/* <Sell /> */}
-    {/* <Footer/> */}
+    <Footer/>
 
     {/* <Wallet /> */}
     {/* <Bidform /> */}
     {/* <Account /> */}
     {/* <Sellon_auction /> */}
-    <Success />
+    {/* <Success /> */}
     
     </>
 

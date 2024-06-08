@@ -1,293 +1,352 @@
-
 /* center page */
 .centerpg {
-    display: grid;
-    grid-auto-flow: column ;
-    justify-content: space-between;
-    padding: 5px 20px;
-  }
-  
-  .live_auc {
-    display: grid;
-    grid-auto-flow: column ;
-  }
-  
-  /* Auction list */
-  
-  .row1 {
-    display: grid;
-    grid-auto-flow: column ;
-    padding-top: 30px;
-    padding-left: 30px;
-  }
-  
-  .grid1 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  /* Grid1-section1 */
-  .sec {
-    display: grid;
-    grid-auto-flow: column ;
-    width:260px;
-    justify-content: space-between;
-  }
-  
-  .create {
-    display: grid;
-    grid-auto-flow: column ;
-    justify-content: flex-start;
-  
-  }
-  
-  .writing1 {
-    font-size: 12px;
-    color:#9FA1A6;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
-  
-  
-  .writing2 {
-    font-size: 14px;
-    color: #293341;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 5px;
-  }
-  
-  .createimage {
-    padding: 20px 10px;
-    height: 34px;
-    width: 34px;
-  }
-  
-  .sec_line {
-    height: 50px;
-    width: 1px;
-    background-color:#F1F4F5;
-    margin-top: 12px;
-  }
-  
-  .own {
-    display: grid;
-    grid-auto-flow: column ;
-    justify-content: flex-start;
-  }
-  
-  .ownimage {
-    padding: 20px 10px;
-  }
-  
-  .writing3 {
-    
-    font-size: 12px;
-    color:#9FA1A6;
-    padding-top: 10px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-  
-  .writing4 {
-    font-size: 14px;
-    color: #293341;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 5px;
-  }
-  
-  .mainimage {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  /* BID VALUES */
-  
-  .picname {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.live_auc {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.details>h3 {
+  display: none;
+}
+
+.details>h5 {
+  color: #293341;
+}
+
+/* Auction list */
+
+.row1 {
+  display: grid;
+  grid-auto-flow: column;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.grid1 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+/* Grid1-section1 */
+.sec {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.create {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+
+}
+
+.writing1 {
+  font-size: 12px;
+  color: #9FA1A6;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.writing2 {
+  font-size: 14px;
+  color: #293341;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.createimage {
+  padding: 20px 10px;
+  height: 34px;
+  width: 34px;
+}
+
+.sec_line {
+  height: 50px;
+  width: 1px;
+  background-color: #F1F4F5;
+  margin-top: 12px;
+}
+
+.own {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+}
+
+.ownimage {
+  padding: 20px 10px;
+}
+
+.writing3 {
+
+  font-size: 12px;
+  color: #9FA1A6;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.writing4 {
+  font-size: 14px;
+  color: #293341;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.mainimage {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* BID VALUES */
+
+.picname {
   color: #293341;
   padding-top: 10px;
-  }
-  
-  .bid {
-    display: grid;
-    grid-auto-flow: column;
-    width: 260px;
-    height: 17px;
-    margin-bottom: 20px;
-  }
-  
-  .bid > p {
-    font-size: 14px;
-  }
-  
-  .currentbid {
-    color: #465364;
-  
-  }
-  
-  .amount {
-    padding-left: 45px;
-  }
-  
-  .bid_end {
-    display: grid;
-    grid-auto-flow: column;
-    width: 260px;
-    height: 17px;
-    margin-bottom: 30px;
-    justify-content: space-between;
-  }
-  
-  .bid_end > p {
-    font-size: 14px;
-  }
-  
-  .hour {
-    color: #FE7676;
-  }
-  
-  .history {
-    display: grid;
-    grid-auto-flow: column;
-    width: 270px;
-    height: 40px;
-    justify-content: space-between;
-  
-  }
-  
-  .history > p {
-    font-size: 14px;
-    padding-right: 15px;
-  }
-  
-  .history > button {
-    width:125px;
-    height:40px;
-    border-radius: 50px;
-    background-color:#1A79E8;
-    color: #FFFFFF;
-    outline: none;
-    border: none;
-  
-  }
-  
-  .history > span {
-    padding-left: 10px;
-    padding-top: 8px;
-  }
-  
-  .row2 {
-    display: grid;
-    grid-auto-flow: column ;
-    padding-top: 30px;
-    padding-left: 30px;
-    
-  }
-  
-  
-  .grid2 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  .grid3 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  .grid4 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  .grid5 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  .grid6 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  .grid7 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  .grid8 {
-    box-shadow: 0px 5px 13px 0px #006AE508;
-    width: 280px;
-    height: 470px;
-  }
-  
-  /* loading page */
-  
-  .loading {
-    display: grid;
-    grid-auto-flow: row ;
-    justify-items: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
-  
-  .loading > p {
-    color: #465364;
+}
+
+.bid {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  height: 17px;
+  margin-bottom: 20px;
+}
+
+.bid>p {
+  font-size: 14px;
+}
+
+.currentbid {
+  color: #465364;
+
+}
+
+.amount {
+  padding-left: 45px;
+}
+
+.bid_end {
+  display: grid;
+  grid-auto-flow: column;
+  width: 260px;
+  height: 17px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.bid_end>p {
+  font-size: 14px;
+}
+
+.hour {
+  color: #FE7676;
+}
+
+.history {
+  display: grid;
+  grid-auto-flow: column;
+  width: 270px;
+  height: 40px;
+  justify-content: space-between;
+
+}
+
+.history>p {
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+.history>button {
+  width: 125px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #1A79E8;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+
+}
+
+.history>span {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+
+.row2 {
+  display: grid;
+  grid-auto-flow: column;
+  padding-top: 30px;
+  padding-left: 30px;
+
+}
+
+
+.grid2 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.grid3 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.grid4 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.grid5 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.grid6 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.grid7 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.grid8 {
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  width: 280px;
+  height: 470px;
+}
+
+.mobile_row {
+  display: none;
+}
+
+/* loading page */
+
+.loading {
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.loading>p {
+  color: #465364;
+}
+
+/* View all auctions */
+
+.view_all {
+  display: grid;
+  justify-content: center;
+  padding: 50px;
+}
+
+.view_all>button {
+  border: 1px solid #46536480;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  height: 50px;
+  width: 200px;
+  font-size: 15px;
+}
+
+/* moto page */
+
+.moto {
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+}
+
+.moto>p {
+  color: #000000;
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.music {
+  color: #293341;
+  font-size: 17dx;
+  padding-top: 30px;
+}
+
+.moto>button {
+  background-color: #1A79E8;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  margin: 30px 0px 0px 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .centerpg {
+    display: block;
   }
 
-  /* View all auctions */
+  .details>h3 {
+    display: block;
+  }
+
+  .details>h2 {
+    display: none;
+  }
+
+  .live_auc {
+    display: none;
+  }
+
+  .maingrid {
+    display: none;
+  }
+
+  .mobile_row {
+    display: block;
+    grid-auto-flow: row;
+    padding: 0px 0px 0px 20px;
+  }
 
   .view_all {
-    display: grid;
-    justify-content: center;
-    padding: 50px;
+    display: block;
   }
 
-  .view_all > button {
-    border: 1px solid #46536480;
-    background-color: #FFFFFF;
-    border-radius: 100px;
-    height: 50px;
-    width: 200px;
-    font-size: 15px;
-  }
-  
-  /* moto page */
-  
   .moto {
-    display:grid;
-    grid-auto-flow: row ;
-    justify-items: center;
+    display: block;
+    padding-left:15px ;
   }
-  
-  .moto > p {
-    color: #000000;
-    font-size: 27px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
+
   .music {
-    color: #293341;
-    font-size: 17dx;
-    padding-top: 30px;
+    display: block;
   }
-  
-  .moto > button {
-    background-color: #1A79E8;
-    color: #FFFFFF;
-    outline: none;
-    border: none;
-    border-radius : 50px;
-    width: 200px;
-    height:40px;
-    margin-top: 30px;
-  }
+
+
+
+}

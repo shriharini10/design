@@ -2,22 +2,23 @@ import React from 'react'
 import './Hero.css'
 
 export const Hero = () => {
-    return (
+  return (
     <div>
-        <div className='centerpg'>
-            <div className='details'>
+      <div className='centerpg'>
+        <div className='details'>
 
-                <h2>Music Collectable's</h2>
-                <h5>Find, Buy, Sell & Collect your Favorite Music Collectable.</h5>
+          <h3>Welcome,</h3>
+          <h2>Welcome, Build your Music collection!</h2>
+          <h5>Find, Buy, Sell & Collect your Favorite Music Collectable.</h5>
 
-            </div>
-
-            <div className='live_auc'>
-                <p>View all live auctions</p>
-            </div>
         </div>
 
-      
+        <div className='live_auc'>
+          <p>View all live auctions</p>
+        </div>
+      </div>
+
+
       <div className='maingrid'>
         <div className='row1'>
 
@@ -473,17 +474,186 @@ export const Hero = () => {
 
 
       </div>
- 
+
       {/* loading more collectables... 
       <div className={'loading'}>
         <img src={"/loading.svg"} alt={"loading image"} height={60} width={60} />
         <p>Loading more Collectables</p>
       </div>  */}
-      
+
+      {/* mobile query */}
+
+      <div className='mobile_row'>
+        <div className='grid1'>
+          <div className='sec'>
+            <div className='create'>
+              <div className='createimage'>
+                <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+              </div>
+
+              <div className='createdby'>
+                <p className='writing1'>Created by</p>
+                <h4 className='writing2'>#114TK6</h4>
+              </div>
+
+            </div>
+
+            <div className='sec_line'>
+
+            </div>
+
+            <div className='own'>
+              <div className='ownedby'>
+                <p className='writing3'>Owned by</p>
+                <h4 className='writing4'>#223BV1</h4>
+              </div>
+
+              <div className='ownimage'>
+                <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='mainimage'>
+            <img src={"/grid11.svg"} alt={"roman image"} width={260} height={217} />
+          </div>
+
+          <div className='picname'>Multi Verge</div>
+          <div className='bid'>
+            <p className='currentbid'>Current bid    ETH 5.89</p>
+            <p className='amount'>= $ 11,557</p>
+          </div>
+
+          <div className='bid_end'>
+            <p>Bid ending in</p>
+            <p className='hour'>12h 24m 36s</p>
+          </div>
+
+          <div className='history'>
+            <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+            <p>View History</p>
+            <button>Place Bid</button>
+          </div>
+        </div>
+
+        <div className='grid2'>
+          <div className='sec'>
+            <div className='create'>
+              <div className='createimage'>
+                <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+              </div>
+
+              <div className='createdby'>
+                <p className='writing1'>Created by</p>
+                <h4 className='writing2'>#114TK6</h4>
+              </div>
+
+            </div>
+
+            <div className='sec_line'>
+
+            </div>
+
+            <div className='own'>
+              <div className='ownedby'>
+                <p className='writing3'>Owned by</p>
+                <h4 className='writing4'>#223BV1</h4>
+              </div>
+
+              <div className='ownimage'>
+                <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='mainimage'>
+            <img src={"/mobilegrid2.svg"} alt={"roman image"} width={260} height={217} />
+          </div>
+
+          <div className='picname'>Frizbie</div>
+          <div className='bid'>
+            <p className='currentbid'>Current bid    ETH 5.89</p>
+            <p className='amount'>= $ 11,557</p>
+          </div>
+
+          <div className='bid_end'>
+            <p>Bid ending in</p>
+            <p className='hour'>12h 24m 36s</p>
+          </div>
+
+          <div className='history'>
+            <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+            <p>View History</p>
+            <button>Place Bid</button>
+          </div>
+        </div>
+
+        <div className='grid3'>
+          <div className='sec'>
+            <div className='create'>
+              <div className='createimage'>
+                <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+              </div>
+
+              <div className='createdby'>
+                <p className='writing1'>Created by</p>
+                <h4 className='writing2'>#114TK6</h4>
+              </div>
+
+            </div>
+
+            <div className='sec_line'>
+
+            </div>
+
+            <div className='own'>
+              <div className='ownedby'>
+                <p className='writing3'>Owned by</p>
+                <h4 className='writing4'>#223BV1</h4>
+              </div>
+
+              <div className='ownimage'>
+                <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='mainimage'>
+            <img src={"/mobilegrid3.svg"} alt={"roman image"} width={260} height={217} />
+          </div>
+
+          <div className='picname'>Frizbie</div>
+          <div className='bid'>
+            <p className='currentbid'>Current bid    ETH 5.89</p>
+            <p className='amount'>= $ 11,557</p>
+          </div>
+
+          <div className='bid_end'>
+            <p>Bid ending in</p>
+            <p className='hour'>12h 24m 36s</p>
+          </div>
+
+          <div className='history'>
+            <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+            <p>View History</p>
+            <button>Place Bid</button>
+          </div>
+        </div>
+      </div>
+
       {/* view all auctions  */}
       <div className='view_all'>
         <button>View all live auctions</button>
-      </div> 
+      </div>
 
 
 
@@ -499,6 +669,6 @@ export const Hero = () => {
         </div>
         <button>Sell your Music Collectable</button>
       </div>
-    </div>    
-    );
+    </div>
+  );
 }
