@@ -39,3 +39,27 @@
     color: #293341;
     font-size: 24px;
 }
+
+@media only screen and (max-width: 600px) {
+    .main {
+      display: block;
+      padding: 10px;
+    }
+  
+    .create {
+      padding-left: 0;
+    }
+  
+    .create > h3 {
+      font-size: 28px;
+      text-align: center;
+    }
+    
+    .create_button {
+      text-align: center;
+    }
+  
+    .preview {
+      display: none;
+    }
+  }

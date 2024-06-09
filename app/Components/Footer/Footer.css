@@ -72,6 +72,7 @@
   }
 
   .brand_logo {
+    display: grid;
     grid-auto-flow: row;
     justify-content: flex-start;
     width: auto;
