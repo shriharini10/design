@@ -1,7 +1,7 @@
 import React from 'react'
 import './Wallet.css'
 
-export const Wallet = () => {
+export default function page() {
     return (
         <div>
             <div className='foxy'>

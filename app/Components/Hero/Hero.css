@@ -263,7 +263,7 @@
   padding: 50px;
 }
 
-.view_all>button {
+.view_button {
   border: 1px solid #46536480;
   background-color: #FFFFFF;
   border-radius: 100px;
@@ -293,7 +293,7 @@
   padding-top: 30px;
 }
 
-.moto>button {
+.styled_button {
   background-color: #1A79E8;
   color: #FFFFFF;
   outline: none;

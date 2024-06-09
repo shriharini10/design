@@ -6,3 +6,8 @@ li {
 li a {
     text-decoration: none;
 }
+
+a {
+    text-decoration: none; /* Remove underlines */
+    color: inherit; /* Inherit text color */
+  }

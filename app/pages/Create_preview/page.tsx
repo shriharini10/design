@@ -1,15 +1,16 @@
 import React from 'react'
 import './Create_preview.css'
+import Link from 'next/link'
 
-export const Create_preview = () => {
+export default function page() {
     return (
         <div className='main'>
             <div className='create'>
                 <h3>Create Music collectible</h3>
 
-                <div className='music_image'>
+                <Link href='/pages/Create'><div className='music_image'>
                     <img src='/create/drop.svg' alt='create' height={230} width={500} />
-                </div>
+                </div></Link>
 
                 <div className='sale'>
                     <img src='/create/putonsale.svg' alt='create' />

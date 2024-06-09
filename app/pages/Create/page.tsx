@@ -1,14 +1,24 @@
 'use client'
 import React, {useState} from 'react';
 import './Create.css';
+import Success from '../../overlay/Success/page';
 
-export const Create = () => {
+export default function page() {
     const [musicImage, setMusicImage] = useState('/create/create_image.svg');
+    const [showOverlay, setShowOverlay] = useState(false);
 
     const handleImageClick = () => {
         setMusicImage(prevImage =>
             prevImage === '/create/create_image.svg' ? '/create/alternate_image.svg' : '/create/create_image.svg'
         );
+    };
+
+    const handleButtonClick = () => {
+        setShowOverlay(true);
+    };
+
+    const handleCloseOverlay = () => {
+        setShowOverlay(false);
     };
 
     return (
@@ -44,7 +54,7 @@ export const Create = () => {
                     <img src='/create/royalty.svg' alt='create' />
                 </div>
 
-                <div className='create_button'>
+                <div className='create_button'  onClick={handleButtonClick}>
                     <img src='/create/button.svg' alt='create' />
                 </div>
             </div>
@@ -68,6 +78,12 @@ export const Create = () => {
                     </div>
                 </div>
             </div>
+
+            {showOverlay && (
+                <div className='overlay'>
+                    <Success />
+                </div>
+            )}
         </div>
 
     );

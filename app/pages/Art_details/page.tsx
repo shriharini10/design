@@ -1,7 +1,14 @@
-import React from 'react'
+'use client'
+import React, {useState} from 'react';
 import './Art_details.css'
+import Wallet from '../../overlay/Wallet/page';
 
-export const Art_details = () => {
+export default function page() {
+    const [showOverlay, setShowOverlay] = useState(false);
+
+    const placeBid = () => {
+        setShowOverlay(true);
+    }
     return (
 
         <div>
@@ -23,7 +30,7 @@ export const Art_details = () => {
                     <div className='sec2'>
                         <div className='bid_box'>
                             <span><img src='/art/bidd.svg' alt='artifacts' /></span>
-                            <button>Place your bid now</button>
+                            <button onClick={placeBid}>Place your bid now</button>
                         </div>
 
                         <div className='bidders'>
@@ -55,7 +62,7 @@ export const Art_details = () => {
                     <div className='sec2'>
                         <div className='mob_bid_box'>
                             <span><img src='/art/mob_bidd.svg' alt='artifacts' /></span>
-                            <button>Place your bid now</button>
+                            <button onClick={placeBid}>Place your bid now</button>
                         </div>
 
                         <div className='bidders'>
@@ -72,6 +79,14 @@ export const Art_details = () => {
 
                 </div>
             </div>
+
+            {showOverlay && (
+                <div className='overlay'>
+                    <Wallet />
+                </div>
+            )}
+
+
         </div>
 
     );

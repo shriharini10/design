@@ -1,51 +1,676 @@
-import Image from "next/image";
+import React from 'react'
+import './Components/Hero/Hero.css'
+import Link from 'next/link'
+import './globals.css'
 
-import { Header } from "./Components/Header/Header";
-//import styles from './page.module.css'
-import { Hero } from "./Components/Hero/Hero";
-import { Footer } from "./Components/Footer/Footer";
-import { Search } from "./Components/Search/Search";
-import { Create_preview } from "./Components/Create_preview/Create_preview";
-import { Create } from "./Components/Create/Create";
-import { Full_auctionlist } from "./Components/Full_auctionlist/Full_auctionlist";
-import { Art_details } from "./Components/Art_details/Art_details";
-import { Sell } from "./Components/Sell/Sell";
-import { Wallet } from "./Components/Wallet/Wallet";
-import { Bidform } from "./Components/Bidform/Bidform";
-import { Account } from "./Components/Account/Account";
-import { Sellon_auction } from "./Components/Sellon_auction/Sellon_auction";
-import { Success } from "./Components/Success/Success";
-import { Mob_preview } from "./Components/Mob_preview/Mob_preview";
-import { Mob_home } from "./Components/Mob_home/Mob_home";
-import { Mob_profile } from "./Components/Mob_profile/Mob_profile";
-
-
-export default function Home() {
+export default function page() {
   return (
-    <>
-    {/* <Header/> */}
-    {/* <Hero /> */}
-    {/* <Search/> */}
-    {/* <Create_preview/> */}
-    {/* <Create/> */}
-    {/* <Full_auctionlist /> */}
-    {/* <Art_details /> */}
-    {/* <Sell /> */}
-    {/* <Footer/> */}
+    <div>
+      <div className='centerpg'>
+        <div className='details'>
 
-    {/* <Wallet /> */}
-    {/* <Bidform /> */}
-    {/* <Account /> */}
-    {/* <Sellon_auction /> */}
-    {/* <Success /> */}
+          <h3>Welcome,</h3>
+          <h2>Welcome, Build your Music collection!</h2>
+          <h5>Find, Buy, Sell & Collect your Favorite Music Collectable.</h5>
 
-    {/* <Mob_preview /> */}
-    {/* < Mob_home /> */}
-    < Mob_profile />
-    
-    </>
+        </div>
+
+        <div className='live_auc'>
+          <p>View all live auctions</p>
+        </div>
+      </div>
 
 
+      <div className='maingrid'>
+        <div className='row1'>
 
+
+          <Link href='/pages/Art_details'><div className='grid1'>
+            <div className='sec'>
+              <div className='create'>
+                <div className='createimage'>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className='createdby'>
+                  <p className='writing1'>Created by</p>
+                  <h4 className='writing2'>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className='sec_line'>
+
+              </div>
+
+              <div className='own'>
+                <div className='ownedby'>
+                  <p className='writing3'>Owned by</p>
+                  <h4 className='writing4'>#223BV1</h4>
+                </div>
+
+                <div className='ownimage'>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className='mainimage'>
+              <img src={"/romanroom.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className='picname'>The Roman Room</div>
+            <div className='bid'>
+              <p className='currentbid'>Current bid    ETH 5.89</p>
+              <p className='amount'>= $ 11,557</p>
+            </div>
+
+            <div className='bid_end'>
+              <p>Bid ending in</p>
+              <p className='hour'>12h 24m 36s</p>
+            </div>
+
+            <div className='history'>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+          </div></Link>
+
+          <Link href='/pages/Art_details'><div className='grid2'>
+            <div className='sec'>
+              <div className='create'>
+                <div className='createimage'>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className='createdby'>
+                  <p className='writing1'>Created by</p>
+                  <h4 className='writing2'>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className='sec_line'>
+
+              </div>
+
+              <div className='own'>
+                <div className='ownedby'>
+                  <p className='writing3'>Owned by</p>
+                  <h4 className='writing4'>#223BV1</h4>
+                </div>
+
+                <div className='ownimage'>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className='mainimage'>
+              <img src={"/grid2.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className='picname'>Circle ArchiTexture</div>
+            <div className='bid'>
+              <p className='currentbid'>Current bid    ETH 5.89</p>
+              <p className='amount'>= $ 11,557</p>
+            </div>
+
+            <div className='bid_end'>
+              <p>Bid ending in</p>
+              <p className='hour'>6h 24m 36s</p>
+            </div>
+
+            <div className='history'>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+
+          </div></Link>
+
+          <Link href='/pages/Art_details'><div className='grid3'>
+            <div className='sec'>
+              <div className='create'>
+                <div className='createimage'>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className='createdby'>
+                  <p className='writing1'>Created by</p>
+                  <h4 className='writing2'>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className='sec_line'>
+
+              </div>
+
+              <div className='own'>
+                <div className={'ownedby'}>
+                  <p className={'writing3'}>Owned by</p>
+                  <h4 className={'writing4'}>#223BV1</h4>
+                </div>
+
+                <div className={'ownimage'}>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className={'mainimage'}>
+              <img src={"/grid3.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className={'picname'}>Man with love</div>
+            <div className={'bid'}>
+              <p className={'currentbid'}>Current bid    ETH 5.89</p>
+              <p className={'amount'}>= $ 11,557</p>
+            </div>
+
+            <div className={'bid_end'}>
+              <p>Bid ending in</p>
+              <p className={'hour'}>12h 24m 36s</p>
+            </div>
+
+            <div className={'history'}>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+
+          </div></Link>
+
+          <Link href='/pages/Art_details'><div className={'grid4'}>
+            <div className={'sec'}>
+              <div className={'create'}>
+                <div className={'createimage'}>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className={'createdby'}>
+                  <p className={'writing1'}>Created by</p>
+                  <h4 className={'writing2'}>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className={'sec_line'}>
+
+              </div>
+
+              <div className={'own'}>
+                <div className={'ownedby'}>
+                  <p className={'writing3'}>Owned by</p>
+                  <h4 className={'writing4'}>#223BV1</h4>
+                </div>
+
+                <div className={'ownimage'}>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className={'mainimage'}>
+              <img src={"/grid4.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className={'picname'}>Once in a blue neon</div>
+            <div className={'bid'}>
+              <p className={'currentbid'}>Current bid    ETH 5.89</p>
+              <p className={'amount'}>= $ 11,557</p>
+            </div>
+
+            <div className={'bid_end'}>
+              <p>Bid ending in</p>
+              <p className={'hour'}>12h 24m 36s</p>
+            </div>
+
+            <div className={'history'}>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+
+          </div></Link>
+        </div>
+
+        <Link href='/pages/Art_details'><div className={'row2'}>
+          <div className={'grid5'}>
+            <div className={'sec'}>
+              <div className={'create'}>
+                <div className={'createimage'}>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className={'createdby'}>
+                  <p className={'writing1'}>Created by</p>
+                  <h4 className={'writing2'}>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className={'sec_line'}>
+
+              </div>
+
+              <div className={'own'}>
+                <div className={'ownedby'}>
+                  <p className={'writing3'}>Owned by</p>
+                  <h4 className={'writing4'}>#223BV1</h4>
+                </div>
+
+                <div className={'ownimage'}>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className={'mainimage'}>
+              <img src={"/grid5.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className={'picname'}>Analog Heartbreak</div>
+            <div className={'bid'}>
+              <p className={'currentbid'}>Current bid    ETH 5.89</p>
+              <p className={'amount'}>= $ 11,557</p>
+            </div>
+
+            <div className={'bid_end'}>
+              <p>Bid ending in</p>
+              <p className={'hour'}>12h 24m 36s</p>
+            </div>
+
+            <div className={'history'}>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+          </div>
+
+          <div className={'grid6'}>
+            <div className={'sec'}>
+              <div className={'create'}>
+                <div className={'createimage'}>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className={'createdby'}>
+                  <p className={'writing1'}>Created by</p>
+                  <h4 className={'writing2'}>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className={'sec_line'}>
+
+              </div>
+
+              <div className={'own'}>
+                <div className={'ownedby'}>
+                  <p className={'writing3'}>Owned by</p>
+                  <h4 className={'writing4'}>#223BV1</h4>
+                </div>
+
+                <div className={'ownimage'}>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className={'mainimage'}>
+              <img src={"/grid6.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className={'picname'}>Black Otaku</div>
+            <div className={'bid'}>
+              <p className={'currentbid'}>Price    ETH 7.38</p>
+              <p className={'amount'}>= $ 15,889</p>
+            </div>
+
+            <div className={'bid_end'}>
+              <p>Bid ending in</p>
+              <p className={'hour'}>12h 24m 36s</p>
+            </div>
+
+            <div className={'history'}>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+
+          </div>
+
+          <div className={'grid7'}>
+            <div className={'sec'}>
+              <div className={'create'}>
+                <div className={'createimage'}>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className={'createdby'}>
+                  <p className={'writing1'}>Created by</p>
+                  <h4 className={'writing2'}>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className={'sec_line'}>
+
+              </div>
+
+              <div className={'own'}>
+                <div className={'ownedby'}>
+                  <p className={'writing3'}>Owned by</p>
+                  <h4 className={'writing4'}>#223BV1</h4>
+                </div>
+
+                <div className={'ownimage'}>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className={'mainimage'}>
+              <img src={"/grid7.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className={'picname'}>Mind Pleasure</div>
+            <div className={'bid'}>
+              <p className={'currentbid'}>Current bid    ETH 5.89</p>
+              <p className={'amount'}>= $ 11,557</p>
+            </div>
+
+            <div className={'bid_end'}>
+              <p>Bid ending in</p>
+              <p className={'hour'}>12h 24m 36s</p>
+            </div>
+
+            <div className={'history'}>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+
+          </div>
+
+          <div className={'grid8'}>
+            <div className={'sec'}>
+              <div className={'create'}>
+                <div className={'createimage'}>
+                  <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+                </div>
+
+                <div className={'createdby'}>
+                  <p className={'writing1'}>Created by</p>
+                  <h4 className={'writing2'}>#114TK6</h4>
+                </div>
+
+              </div>
+
+              <div className={'sec_line'}>
+
+              </div>
+
+              <div className={'own'}>
+                <div className={'ownedby'}>
+                  <p className={'writing3'}>Owned by</p>
+                  <h4 className={'writing4'}>#223BV1</h4>
+                </div>
+
+                <div className={'ownimage'}>
+                  <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <div className={'mainimage'}>
+              <img src={"/grid8.svg"} alt={"roman image"} width={260} height={217} />
+            </div>
+
+            <div className={'picname'}>GAINT ROBOT</div>
+            <div className={'bid'}>
+              <p className={'currentbid'}>Current bid    ETH 5.89</p>
+              <p className={'amount'}>= $ 11,557</p>
+            </div>
+
+            <div className={'bid_end'}>
+              <p>Bid ending in</p>
+              <p className={'hour'}>12h 24m 36s</p>
+            </div>
+
+            <div className={'history'}>
+              <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+              <p>View History</p>
+              <button>Place Bid</button>
+            </div>
+
+          </div>
+        </div></Link>
+
+
+      </div>
+
+      {/* loading more collectables... 
+      <div className={'loading'}>
+        <img src={"/loading.svg"} alt={"loading image"} height={60} width={60} />
+        <p>Loading more Collectables</p>
+      </div>  */}
+
+      {/* mobile query */}
+
+      <div className='mobile_row'>
+        <div className='grid1'>
+          <div className='sec'>
+            <div className='create'>
+              <div className='createimage'>
+                <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+              </div>
+
+              <div className='createdby'>
+                <p className='writing1'>Created by</p>
+                <h4 className='writing2'>#114TK6</h4>
+              </div>
+
+            </div>
+
+            <div className='sec_line'>
+
+            </div>
+
+            <div className='own'>
+              <div className='ownedby'>
+                <p className='writing3'>Owned by</p>
+                <h4 className='writing4'>#223BV1</h4>
+              </div>
+
+              <div className='ownimage'>
+                <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='mainimage'>
+            <img src={"/grid11.svg"} alt={"roman image"} width={260} height={217} />
+          </div>
+
+          <div className='picname'>Multi Verge</div>
+          <div className='bid'>
+            <p className='currentbid'>Current bid    ETH 5.89</p>
+            <p className='amount'>= $ 11,557</p>
+          </div>
+
+          <div className='bid_end'>
+            <p>Bid ending in</p>
+            <p className='hour'>12h 24m 36s</p>
+          </div>
+
+          <div className='history'>
+            <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+            <p>View History</p>
+            <button>Place Bid</button>
+          </div>
+        </div>
+
+        <div className='grid2'>
+          <div className='sec'>
+            <div className='create'>
+              <div className='createimage'>
+                <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+              </div>
+
+              <div className='createdby'>
+                <p className='writing1'>Created by</p>
+                <h4 className='writing2'>#114TK6</h4>
+              </div>
+
+            </div>
+
+            <div className='sec_line'>
+
+            </div>
+
+            <div className='own'>
+              <div className='ownedby'>
+                <p className='writing3'>Owned by</p>
+                <h4 className='writing4'>#223BV1</h4>
+              </div>
+
+              <div className='ownimage'>
+                <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='mainimage'>
+            <img src={"/mobilegrid2.svg"} alt={"roman image"} width={260} height={217} />
+          </div>
+
+          <div className='picname'>Frizbie</div>
+          <div className='bid'>
+            <p className='currentbid'>Current bid    ETH 5.89</p>
+            <p className='amount'>= $ 11,557</p>
+          </div>
+
+          <div className='bid_end'>
+            <p>Bid ending in</p>
+            <p className='hour'>12h 24m 36s</p>
+          </div>
+
+          <div className='history'>
+            <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+            <p>View History</p>
+            <button>Place Bid</button>
+          </div>
+        </div>
+
+        <div className='grid3'>
+          <div className='sec'>
+            <div className='create'>
+              <div className='createimage'>
+                <img src={"/Ellipse 1.svg"} alt={"creator image"} width={34} height={34} />
+              </div>
+
+              <div className='createdby'>
+                <p className='writing1'>Created by</p>
+                <h4 className='writing2'>#114TK6</h4>
+              </div>
+
+            </div>
+
+            <div className='sec_line'>
+
+            </div>
+
+            <div className='own'>
+              <div className='ownedby'>
+                <p className='writing3'>Owned by</p>
+                <h4 className='writing4'>#223BV1</h4>
+              </div>
+
+              <div className='ownimage'>
+                <img src={"/Ellipse 2.svg"} alt={"owner image"} width={34} height={34} />
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div className='mainimage'>
+            <img src={"/mobilegrid3.svg"} alt={"roman image"} width={260} height={217} />
+          </div>
+
+          <div className='picname'>Frizbie</div>
+          <div className='bid'>
+            <p className='currentbid'>Current bid    ETH 5.89</p>
+            <p className='amount'>= $ 11,557</p>
+          </div>
+
+          <div className='bid_end'>
+            <p>Bid ending in</p>
+            <p className='hour'>12h 24m 36s</p>
+          </div>
+
+          <div className='history'>
+            <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
+            <p>View History</p>
+            <button>Place Bid</button>
+          </div>
+        </div>
+      </div>
+
+      {/* view all auctions  */}
+      <div className='view_all'>
+        <Link href='/pages/Full_auctionlist'><button className='view_button'>View all live auctions</button></Link>
+      </div>
+
+
+
+      {/* moto of the page */}
+      <div className={'moto'}>
+
+        <p>We are building the new economy for</p>
+        <p>collecting music</p>
+
+        <div className={'music'}>
+          <article>We're bringing Music creators, digital creators, crypto</article>
+          <article>natives, and collectors together to move culture forward.</article>
+        </div>
+        <Link href='/pages/Create_preview'><button className='styled_button'>Sell your Music Collectable</button></Link>
+      </div>
+    </div>
   );
 }

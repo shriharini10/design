@@ -1,7 +1,8 @@
 import React from 'react'
 import './Full_auctionlist.css'
+import Link from 'next/link'
 
-export const Full_auctionlist = () => {
+export default function page() {
     return (
     <div>
         <div className='centerpg'>
@@ -945,7 +946,7 @@ export const Full_auctionlist = () => {
           <article>We're bringing Music creators, digital creators, crypto</article>
           <article>natives, and collectors together to move culture forward.</article>
         </div>
-        <button>Sell your Music Collectable</button>
+        <Link href='/pages/Create_preview'><button className='styled_button'>Sell your Music Collectable</button></Link>
       </div>
 
     </div>

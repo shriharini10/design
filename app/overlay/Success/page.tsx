@@ -1,7 +1,7 @@
 import React from 'react';
 import './Success.css';
 
-export const Success = () => {
+ export default function page() {
     return (
         <div className='success'>
             <span><img src='/success/success.svg' alt='success message'/></span>
