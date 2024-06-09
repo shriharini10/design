@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {
+        height: 100%;
+        background-color: black;
+    }
+
+    .home {
+        height: 100%;
+        background-color: black;
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .top {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+    }
+
+    .header {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .controls {
+        color: #FFFFFF;
+        padding-left: 20px;
+    }
+
+    .home>button {
+        color: #1A79E8;
+        background-color: #FFFFFF;
+        border-radius: 100px;
+        outline: none;
+        width: 154px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+}

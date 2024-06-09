@@ -16,12 +16,13 @@ import { Account } from "./Components/Account/Account";
 import { Sellon_auction } from "./Components/Sellon_auction/Sellon_auction";
 import { Success } from "./Components/Success/Success";
 import { Mob_preview } from "./Components/Mob_preview/Mob_preview";
+import { Mob_home } from "./Components/Mob_home/Mob_home";
 
 
 export default function Home() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     {/* <Hero /> */}
     {/* <Search/> */}
     {/* <Create_preview/> */}
@@ -37,7 +38,8 @@ export default function Home() {
     {/* <Sellon_auction /> */}
     {/* <Success /> */}
 
-    <Mob_preview />
+    {/* <Mob_preview /> */}
+    < Mob_home />
     
     </>
 
