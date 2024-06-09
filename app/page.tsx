@@ -15,6 +15,7 @@ import { Bidform } from "./Components/Bidform/Bidform";
 import { Account } from "./Components/Account/Account";
 import { Sellon_auction } from "./Components/Sellon_auction/Sellon_auction";
 import { Success } from "./Components/Success/Success";
+import { Mob_preview } from "./Components/Mob_preview/Mob_preview";
 
 
 export default function Home() {
@@ -35,6 +36,8 @@ export default function Home() {
     {/* <Account /> */}
     {/* <Sellon_auction /> */}
     {/* <Success /> */}
+
+    <Mob_preview />
     
     </>
 

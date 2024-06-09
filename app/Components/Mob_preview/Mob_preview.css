@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+
+.border {
+    display: block;
+    border: 1.5px dashed #1A79E8;
+    padding-left: 20px;
+    padding-top: 20px;
+}    
+
+.desc {
+    padding-bottom: 20px;
+}
+}
