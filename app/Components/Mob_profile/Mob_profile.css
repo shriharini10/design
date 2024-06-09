@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+    html,
+    body {
+        height: 100%;
+        background-color: black;
+    }
+
+    .home {
+        height: 100%;
+        background-color: black;
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .top {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+    }
+
+    .header {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .controls {
+        color: #FFFFFF;
+        padding-left: 10px;
+    }
+
+    /* Account info */
+
+    .account {
+        /* display: grid;
+        grid-auto-flow: row; */
+        display: block;
+        color: #FFFFFF;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+
+    .profile {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .first_row {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: flex-start;
+    }
+
+    .first_row > span {
+        margin-left: 10px;
+    }
+
+    .second_row {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: flex-start;
+
+    }
+
+    .second_row > span {
+        margin: 20px 0px 0px 15px;
+    }
+
+    .price {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .footpage {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .bottom {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+    }
+
+    .bottom > span {
+        margin-top: 50px;
+    }
+
+}

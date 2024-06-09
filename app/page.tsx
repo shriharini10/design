@@ -17,6 +17,7 @@ import { Sellon_auction } from "./Components/Sellon_auction/Sellon_auction";
 import { Success } from "./Components/Success/Success";
 import { Mob_preview } from "./Components/Mob_preview/Mob_preview";
 import { Mob_home } from "./Components/Mob_home/Mob_home";
+import { Mob_profile } from "./Components/Mob_profile/Mob_profile";
 
 
 export default function Home() {
@@ -39,7 +40,8 @@ export default function Home() {
     {/* <Success /> */}
 
     {/* <Mob_preview /> */}
-    < Mob_home />
+    {/* < Mob_home /> */}
+    < Mob_profile />
     
     </>
 
