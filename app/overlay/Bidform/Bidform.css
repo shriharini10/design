@@ -1,3 +1,11 @@
+.bidpage {
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
 .topsection {
   display: grid;
   grid-auto-flow: column;
@@ -69,12 +77,12 @@
   grid-auto-flow: column;
 }
 
-.left > p {
+.left>p {
   color: #465364;
   font-size: 14px;
 }
 
-.right > p {
+.right>p {
   color: #465364;
   font-size: 14px;
 }
@@ -84,7 +92,7 @@
   grid-auto-flow: column;
 }
 
-.middle > p {
+.middle>p {
   color: #465364;
   font-size: 14px;
 }
@@ -99,7 +107,7 @@
   border: none;
 }
 
-.mob_amt_button{
+.mob_amt_button {
   display: none;
 }
 
@@ -112,7 +120,8 @@
     display: none;
   }
 
-  .auc_image, .details {
+  .auc_image,
+  .details {
     display: inline-block;
     vertical-align: top;
     width: 49%;
@@ -123,7 +132,8 @@
     padding-right: 0;
   }
 
-  .bid, .bid_end {
+  .bid,
+  .bid_end {
     width: 100%;
     display: grid;
     grid-auto-flow: column;
@@ -141,11 +151,11 @@
     display: none;
   }
 
-  .mob_amt_button{
+  .mob_amt_button {
     display: block;
   }
-  
-  .middle > button {
+
+  .middle>button {
     width: 100%;
     margin-top: 15px;
   }

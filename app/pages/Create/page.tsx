@@ -81,7 +81,7 @@ export default function page() {
 
             {showOverlay && (
                 <div className='overlay'>
-                    <Success />
+                    <Success onCloseOverlay={handleCloseOverlay} />
                 </div>
             )}
         </div>

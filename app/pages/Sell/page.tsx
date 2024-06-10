@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sell.css';
 
-export const Sell = () => {
+export default function page() {
     return (
 
         <div>

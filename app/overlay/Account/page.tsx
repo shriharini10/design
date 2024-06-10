@@ -1,7 +1,11 @@
+'use client'
 import React from 'react';
 import './Account.css'
 
-export const Account = () => {
+interface accountprops {
+    closeOverlay : () => void;
+}
+const Account: React.FC <accountprops> = ({closeOverlay}) => { 
     return (
         <div className='account'>
             <div className='profile'>
@@ -34,8 +38,10 @@ export const Account = () => {
                     <p>Disconnect</p>
                 </div>
 
-                <span><img src='/account/log-out.svg' alt='log out button'/></span>
+                <span><img onClick={closeOverlay} src='/account/log-out.svg' alt='log out button'/></span>
             </div>
         </div>
     );
 }
+
+export default Account;

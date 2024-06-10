@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sellon_auction.css'
 
-export const Sellon_auction = () => {
+export default function page() {
     return (
         <div>
             <div className='bidpage'>

@@ -1,7 +1,12 @@
+'use client'
 import React from 'react';
 import './Success.css';
 
- export default function page() {
+interface SuccessProps {
+    onCloseOverlay: () => void;
+}
+
+const Success: React.FC<SuccessProps> = ({ onCloseOverlay }) => {
     return (
         <div className='success'>
             <span><img src='/success/success.svg' alt='success message'/></span>
@@ -10,8 +15,10 @@ import './Success.css';
 
             <p>Your craft has been uploaded and can be found under Music Collection in your profile.</p>
 
-            <button>Done for now</button>
+            <button onClick={onCloseOverlay}>Done for now</button>
         </div>
 
     );
 }
+
+export default Success;

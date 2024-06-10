@@ -9,6 +9,7 @@ export default function page() {
     const placeBid = () => {
         setShowOverlay(true);
     }
+    
     return (
 
         <div>
