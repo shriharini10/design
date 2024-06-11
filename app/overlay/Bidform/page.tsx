@@ -1,16 +1,7 @@
-'use client'
 import React from 'react'
 import './Bidform.css'
 
-interface BidProps {
-    onCloseOverlay: () => void;
-}
-
-const Bid: React.FC<BidProps> = ({ onCloseOverlay }) => {
-    const handleCloseOverlay = () => {
-        onCloseOverlay(); // Call the provided function to close the overlay
-    };
-
+export default function Bid () {
     return (
         <div className='bidpage'>
             <div className='topsection'>
@@ -34,7 +25,7 @@ const Bid: React.FC<BidProps> = ({ onCloseOverlay }) => {
 
                 </div>
 
-                <span className='cross' onClick={handleCloseOverlay}><img src='/bidform/x-circle.svg' alt='close page'/></span>
+                <span className='cross'><img src='/bidform/x-circle.svg' alt='close page'/></span>
             </div>
 
             <div className='middle'>
@@ -79,5 +70,3 @@ const Bid: React.FC<BidProps> = ({ onCloseOverlay }) => {
 
     );
 }
-
-export default Bid;

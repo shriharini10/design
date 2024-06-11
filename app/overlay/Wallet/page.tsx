@@ -12,11 +12,6 @@ export default function Wallet() {
         setShowBidOverlay(true);
     };
 
-    const handleCloseOverlay = () => {
-        setShowWalletOverlay(false);
-        setShowBidOverlay(false);
-    };
-
     return (
         <div>
             {showWalletOverlay && (
@@ -29,7 +24,7 @@ export default function Wallet() {
 
             {showBidOverlay && (
                 <div className='overlay'>
-                    <Bid onCloseOverlay={handleCloseOverlay} />
+                    <Bid />
                 </div>
             )}
            

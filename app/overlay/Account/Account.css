@@ -61,7 +61,7 @@
     grid-auto-flow: column;
 }
 
-.bottom > span {
+.bottom > a {
     display: grid;
     margin-top: 45px;
     justify-content: right;

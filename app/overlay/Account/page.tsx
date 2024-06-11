@@ -1,11 +1,8 @@
-'use client'
 import React from 'react';
 import './Account.css'
+import Link from 'next/link';
 
-interface accountprops {
-    closeOverlay : () => void;
-}
-const Account: React.FC <accountprops> = ({closeOverlay}) => { 
+export default function Account () {
     return (
         <div className='account'>
             <div className='profile'>
@@ -38,10 +35,8 @@ const Account: React.FC <accountprops> = ({closeOverlay}) => {
                     <p>Disconnect</p>
                 </div>
 
-                <span><img onClick={closeOverlay} src='/account/log-out.svg' alt='log out button'/></span>
+                <Link href='/'><span><img src='/account/log-out.svg' alt='log out button'/></span></Link>
             </div>
         </div>
     );
 }
-
-export default Account;

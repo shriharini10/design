@@ -16,11 +16,7 @@ export default function Create() {
     const handleButtonClick = () => {
         setShowOverlay(true);
     };
-
-    const handleCloseOverlay = () => {
-        setShowOverlay(false);
-    };
-
+    
     return (
         <div className='main'>
             <div className='create'>
@@ -81,7 +77,7 @@ export default function Create() {
 
             {showOverlay && (
                 <div className='overlay'>
-                    <Success onCloseOverlay={handleCloseOverlay} />
+                    <Success />
                 </div>
             )}
         </div>

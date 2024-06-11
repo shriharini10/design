@@ -51,7 +51,7 @@ export default function Headerpage() {
 
       {initial && (
         <div className='overlay'>
-          < Account closeOverlay={closeAccount}/>
+          < Account/>
         </div>
       )}
 
