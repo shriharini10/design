@@ -1,7 +1,7 @@
 import React from 'react';
 import './Mob_home.css';
 
-export const Mob_home = () => {
+export default function page () {
     return (
         <div className='home'>
             <div className='header'>

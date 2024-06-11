@@ -11,6 +11,11 @@ export default function Headerpage() {
   const toggleAccount = () => {
     setShowAccount(!showAccount);
   };
+
+  const closeAccount = () => {
+    setShowAccount(false);
+  };
+
   return (
 
     <div className='header'>
@@ -39,9 +44,9 @@ export default function Headerpage() {
         <img onClick={toggleAccount} src={"/Ellipse 5.svg"} alt={"user picture"} width={40} height={40} />
       </div>
 
-      <div className='burger'>
+      <Link href='/Components/Mob_home'><div className='burger'>
         <img src={"/hamburger.svg"} alt={"menu list"} width={24} height={24} />
-      </div>
+      </div></Link>
 
       {showAccount && (
         <div className='overlay'>
