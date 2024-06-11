@@ -35,7 +35,7 @@ export default function Account () {
                     <p>Disconnect</p>
                 </div>
 
-                <Link href='/'><span><img src='/account/log-out.svg' alt='log out button'/></span></Link>
+                <Link href='/pages/Art_details'><span><img src='/account/log-out.svg' alt='log out button'/></span></Link>
             </div>
         </div>
     );
