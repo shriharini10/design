@@ -8,7 +8,7 @@ export default function Full_auctionlist() {
         <div className='centerpg'>
             <div className='details'>
 
-                <h2>Music Collectable's</h2>
+                <h2>Music Collectable’s</h2>
                 <h5>Find, Buy, Sell & Collect your Favorite Music Collectable.</h5>
 
             </div>
@@ -943,7 +943,7 @@ export default function Full_auctionlist() {
         <p>collecting music</p>
 
         <div className={'music'}>
-          <article>We're bringing Music creators, digital creators, crypto</article>
+          <article>We’re bringing Music creators, digital creators, crypto</article>
           <article>natives, and collectors together to move culture forward.</article>
         </div>
         <Link href='/pages/Create_preview'><button className='styled_button'>Sell your Music Collectable</button></Link>

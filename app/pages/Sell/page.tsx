@@ -369,7 +369,7 @@ export default function Sell() {
                     <p>collecting music</p>
 
                     <div className={'music'}>
-                        <article>We're bringing Music creators, digital creators, crypto</article>
+                        <article>We’re bringing Music creators, digital creators, crypto</article>
                         <article>natives, and collectors together to move culture forward.</article>
                     </div>
                     <button>Sell your Music Collectable</button>
@@ -559,7 +559,7 @@ export default function Sell() {
                     <p><strong>collecting music</strong></p>
 
                     <div className={'music'}>
-                        <article>We're bringing Music creators, digital creators, crypto</article>
+                        <article>We’re bringing Music creators, digital creators, crypto </article>
                         <article>natives, and collectors together to move culture forward.</article>
                     </div>
                     <button>Sell your Music Collectable</button>
