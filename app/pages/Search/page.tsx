@@ -1,7 +1,7 @@
 import React from 'react'
 import './Search.css'
 
-export default function page() {
+export default function Search() {
     return (
         <div className='searchpage'>
             <div className='searchtext'>

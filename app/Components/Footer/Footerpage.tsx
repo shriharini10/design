@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-export default function page() {
+export default function Footerpage() {
     return (
         <div className={'footer'}>
         <div className={'top_section'}>

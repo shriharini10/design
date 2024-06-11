@@ -2,7 +2,7 @@ import React from 'react'
 import './Create_preview.css'
 import Link from 'next/link'
 
-export default function page() {
+export default function Create_preview() {
     return (
         <div className='main'>
             <div className='create'>

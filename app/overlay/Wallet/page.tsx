@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import './Wallet.css'
 import Bid from '../../overlay/Bidform/page';
 
-export default function page() {
+export default function Wallet() {
     const [showWalletOverlay, setShowWalletOverlay] = useState(true);
     const [showBidOverlay, setShowBidOverlay] = useState(false);
     

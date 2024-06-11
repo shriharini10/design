@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import Account from '@/app/overlay/Account/page'
 
-export default function page() {
+export default function Headerpage() {
 
   const [initial, update] = useState(false);
 

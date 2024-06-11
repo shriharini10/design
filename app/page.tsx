@@ -3,7 +3,7 @@ import './Components/Hero/Hero.css'
 import Link from 'next/link'
 import './globals.css'
 
-export default function page() {
+export default function Hero() {
   return (
     <div>
       <div className='centerpg'>

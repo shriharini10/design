@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import './Sell.css';
 import Auction from '@/app/overlay/Sellon_auction/page'
 
-export default function page() {
+export default function Sell() {
     const [initial, update] = useState(false);
 
     const overlay = () => {

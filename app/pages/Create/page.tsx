@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import './Create.css';
 import Success from '../../overlay/Success/page';
 
-export default function page() {
+export default function Create() {
     const [musicImage, setMusicImage] = useState('/create/create_image.svg');
     const [showOverlay, setShowOverlay] = useState(false);
 

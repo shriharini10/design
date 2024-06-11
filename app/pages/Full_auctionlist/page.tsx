@@ -2,7 +2,7 @@ import React from 'react'
 import './Full_auctionlist.css'
 import Link from 'next/link'
 
-export default function page() {
+export default function Full_auctionlist() {
     return (
     <div>
         <div className='centerpg'>

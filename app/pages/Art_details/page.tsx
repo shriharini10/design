@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import './Art_details.css'
 import Wallet from '../../overlay/Wallet/page';
 
-export default function page() {
+export default function Art_details() {
     const [showOverlay, setShowOverlay] = useState(false);
 
     const placeBid = () => {
