@@ -519,9 +519,9 @@ export default function Hero() {
 
           </div>
 
-          <div className='mainimage'>
+          <Link href='/pages/Art_details'><div className='mainimage'>
             <img src={"/grid11.svg"} alt={"roman image"} width={260} height={217} />
-          </div>
+          </div></Link>
 
           <div className='picname'>Multi Verge</div>
           <div className='bid'>
@@ -574,9 +574,9 @@ export default function Hero() {
 
           </div>
 
-          <div className='mainimage'>
+          <Link href='/pages/Art_details'><div className='mainimage'>
             <img src={"/mobilegrid2.svg"} alt={"roman image"} width={260} height={217} />
-          </div>
+          </div></Link>
 
           <div className='picname'>Frizbie</div>
           <div className='bid'>
@@ -629,9 +629,9 @@ export default function Hero() {
 
           </div>
 
-          <div className='mainimage'>
+          <Link href='/pages/Art_details'><div className='mainimage'>
             <img src={"/mobilegrid3.svg"} alt={"roman image"} width={260} height={217} />
-          </div>
+          </div></Link>
 
           <div className='picname'>Frizbie</div>
           <div className='bid'>
