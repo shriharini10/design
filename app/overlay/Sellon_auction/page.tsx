@@ -1,12 +1,7 @@
-'use client'
 import React from 'react'
 import './Sellon_auction.css'
 
-interface sellon {
-    openAuction :() => void;
-}
-
-const Auction:React.FC <sellon> =({openAuction}) => {
+export default function Auction () {
     return (
         <div>
             <div className='bidpage'>
@@ -39,7 +34,7 @@ const Auction:React.FC <sellon> =({openAuction}) => {
 
                     
 
-                        <span className='cross' onClick={openAuction}><img src='/bidform/x-circle.svg' alt='close page' /></span>
+                        <span className='cross'><img src='/bidform/x-circle.svg' alt='close page' /></span>
                     </div>
 
                     <div className='middle'>
@@ -81,5 +76,3 @@ const Auction:React.FC <sellon> =({openAuction}) => {
         
             );
 }
-
-export default Auction;

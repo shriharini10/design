@@ -1,4 +1,3 @@
-'use client'
 import React, {useState} from 'react';
 import './Sell.css';
 import Auction from '@/app/overlay/Sellon_auction/page'
@@ -8,10 +7,6 @@ export default function Sell() {
 
     const overlay = () => {
         update(true)
-    }
-
-    const closeOverlay = () => {
-        update(false)
     }
 
     return (
@@ -74,7 +69,7 @@ export default function Sell() {
                         <div className='history'>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
                     </div>
 
@@ -129,7 +124,7 @@ export default function Sell() {
                         <div className='history'>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
 
                     </div>
@@ -185,7 +180,7 @@ export default function Sell() {
                         <div className={'history'}>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
 
                     </div>
@@ -241,7 +236,7 @@ export default function Sell() {
                         <div className={'history'}>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
 
                     </div>
@@ -301,7 +296,7 @@ export default function Sell() {
                         <div className='history'>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
                     </div>
 
@@ -356,7 +351,7 @@ export default function Sell() {
                         <div className='history'>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
 
                     </div>
@@ -435,7 +430,7 @@ export default function Sell() {
                         <div className='history'>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
                     </div>
 
@@ -490,7 +485,7 @@ export default function Sell() {
                         <div className='history'>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
 
                     </div>
@@ -546,7 +541,7 @@ export default function Sell() {
                         <div className={'history'}>
                             <span><img src={"/arrow.svg"} alt={"arrow button"} height={35} width={20} /></span>
                             <p>View History</p>
-                            <button onClick={overlay}>Sell on Auction</button>
+                            <button>Sell on Auction</button>
                         </div>
 
                     </div>
