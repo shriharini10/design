@@ -1,4 +1,4 @@
-'use client'
+
 import React from 'react';
 import './Success.css';
 import Link from 'next/link';
@@ -12,7 +12,7 @@ export default function Success () {
 
             <p>Your craft has been uploaded and can be found under Music Collection in your profile.</p>
 
-            <Link href='/pages/Create'><button className='done_button'>Done for now</button></Link>
+            <button className='done_button'>Done for now</button>
         </div>
 
     );
