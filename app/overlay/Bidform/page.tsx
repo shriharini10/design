@@ -1,5 +1,6 @@
 import React from 'react'
 import './Bidform.css'
+import Link from 'next/link'
 
 export default function Bid () {
     return (
@@ -25,7 +26,7 @@ export default function Bid () {
 
                 </div>
 
-                <span className='cross'><img src='/bidform/x-circle.svg' alt='close page'/></span>
+                <Link href='/'><span className='cross'><img src='/bidform/x-circle.svg' alt='close page'/></span></Link>
             </div>
 
             <div className='middle'>

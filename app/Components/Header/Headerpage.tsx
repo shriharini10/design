@@ -6,17 +6,11 @@ import Link from 'next/link';
 import Account from '@/app/overlay/Account/page'
 
 export default function Headerpage() {
+  const [showAccount, setShowAccount] = useState(false);
 
-  const [initial, update] = useState(false);
-
-  const accountClick = () => {
-    update(true);
-  }
-
-  const closeAccount = () => {
-    update(false);
-  }
-
+  const toggleAccount = () => {
+    setShowAccount(!showAccount);
+  };
   return (
 
     <div className='header'>
@@ -42,14 +36,14 @@ export default function Headerpage() {
 
       <div className='controls'>
         <button>0 Collectibles</button>
-        <img onClick={accountClick} src={"/Ellipse 5.svg"} alt={"user picture"} width={40} height={40} />
+        <img onClick={toggleAccount} src={"/Ellipse 5.svg"} alt={"user picture"} width={40} height={40} />
       </div>
 
       <div className='burger'>
         <img src={"/hamburger.svg"} alt={"menu list"} width={24} height={24} />
       </div>
 
-      {initial && (
+      {showAccount && (
         <div className='overlay'>
           < Account/>
         </div>
