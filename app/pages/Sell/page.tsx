@@ -1,3 +1,4 @@
+'use client'
 import React, {useState} from 'react';
 import './Sell.css';
 import Auction from '@/app/overlay/Sellon_auction/page'
@@ -563,7 +564,7 @@ export default function Sell() {
 
             {initial && (
                 <div className='overlay'>
-                    < Auction openAuction ={closeOverlay} />
+                    < Auction />
                 </div>
             )}
         </div>
