@@ -1,8 +1,7 @@
 'use client'
-import React from 'react'
+import React,{useState} from 'react';
 import './Wallet.css'
 import Bid from '../../overlay/Bidform/page';
-import {useState} from 'react'
 
 export default function page() {
     const [showWalletOverlay, setShowWalletOverlay] = useState(true);
